@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet"/>
+    <title>Learning System</title>
+</head>
+<body>
+    <div class="container">
+            <nav>
+                <div style="padding: 1rem;display: block;">
+                    <b>Let's learn Together !</b>
+                </div>
+                <ul class="navbar">
+                    <li><button type="button" class="btn-nav" onclick="goTo('homex')">Home</button></li>
+                    <li><button type="button" class="btn-nav" onclick="goTo('penjelasanx')">Penjelasan</button></li>
+                    <li><button type="button" class="btn-nav" onclick="goTo('golonganx')">Golongan</button></li>
+                    <li><button type="button" class="btn-nav" onclick="goTo('contactx')">Contact</button></li>
+                </ul>
+            </nav>
+            <div class="home" id="homex">
+                <div class="col-6">
+                    <div class="text"> 
+                        <h1>Mari Belajar Golongan Hewan</h1> 
+                    </div>
+                    <div class="letter-a"><img src="letter-a.png" width="150"></div>
+                    <div class="letter-b"><img src="letter-b.png" width="150"></div>
+                    <div class="letter-c"><img src="letterc.png" width="100"></div>
+                </div>
+                <div class="col-6">
+                    <div class="home-image">
+                        <div class="kotak1"></div>
+                        <div class="kotak2"></div>
+                        <div class="kotak3"></div>
+                        <div class="thumbnail"><img src="./pngimg.com - children_PNG17999.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="penjelasan" id="penjelasanx">
+                <h1>Penjelasan</h1>
+                <iframe width="720" height="400"
+                src="https://www.youtube.com/embed/4vUNZmNofjs">
+                </iframe>
+                <img src="./Animal-Jungle_Animal-1.jpg" width="300" height="300" class="gmbr-1" srcset="">
+                <img src="./Animal-Jungle_Animal-1.jpg" width="300" height="300" class="gmbr-2" srcset="">
+            </div>
+
+            <div class="golongan" id="golonganx">
+                <h1>Pembagian Golongan & Ciri-Ciri nya</h1>
+                <div class="tmp">
+                    <div class="tmp-table">
+                        <table id="customers">
+                            <tr>
+                              <th>Herbivora</th>
+                              <th>Karnivora</th>
+                              <th>Omnivora</th>
+                            </tr>
+                            <tr>
+                              <td>Hanya memakan tumbuhan</td>
+                              <td>Hanya memakan daging</td>
+                              <td>Bisa memakan segala sesuatu, baik daging maupun tumbuhan</td>
+                            </tr>
+                            <tr>
+                              <td>Memiliki gigi lebar dan tumpul</td>
+                              <td>Memiliki gigi yang tajam, panjang, dan rahang yang kuat</td>
+                              <td>Memiliki struktur gigi yang beragam</td>
+                            </tr>
+                            <tr>
+                              <td>Sebagian memiliki kemampuan untuk memuntahkan makanan</td>
+                              <td>Pencernaannya tidak kompleks seperti herbivora dan omnivora</td>
+                              <td>Punya gigi tajam dan gigi geraham pipih</td>
+                            </tr>
+                            <tr>
+                              <td>Sebagian besar berkembang biak dengan cara melahirkan. </td>
+                              <td>Berkembang biak dengan melahirkan dan bertelur</td>
+                              <td>Memiliki perut yang terdiri dari satu atau lebih bilik</td>
+                            </tr>
+                            <tr>
+                              <td>Sebagian besar hidup di darat</td>
+                              <td>Beradaptasi dengan berburu</td>
+                              <td>Sebagian besar berkembang biak dengan bertelur</td>
+                            </tr>
+                            <tr>
+                              <td>Sebagian besar berkaki empat</td>
+                              <td>Memiliki cakar tajam untuk berburu</td>
+                              <td>Sebagian besar bukan hewan mamalia</td>
+                            </tr>
+                            <tr>
+                              <td>Termasuk hewan vertebrata</td>
+                              <td>Kelompok burung karnivora berparuh bengkok</td>
+                              <td>Mampu bertahan hidup di berbagai lingkungan</td>
+                            </tr>
+                            <tr>
+                              <td>Bergantung pada tumbuhan untuk bertahan hidup</td>
+                              <td>Alat indranya peka dan sebagian memiliki racun di dalam tubuhnya</td>
+                              <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+            </div>
+          
+            <div class="contact" id="contactx">
+                <h1>Kritik dan Saran</h1>
+                <div class="form">
+                    <form action="" method="POST" autocomplete="off">
+                        <label for="nama">Nama Lengkap</label>
+                            <input type="text" name="nama">
+                        <label for="email">Email</label>
+                            <input type="email" name="email" id="">
+                        <label for="ket">Kritik dan Saran</label>
+                            <textarea name="deskripsi" id="" cols="30" rows="5"></textarea>
+                        <div class="submit">
+                            <button class="btn-submit" type="button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <footer>
+                &copy;Copyright 2024 | Muhammad Rafael Mulya Lesmana
+            </footer>
+    </div>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="index.js"></script>
+</html>
